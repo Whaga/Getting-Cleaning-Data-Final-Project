@@ -25,13 +25,7 @@ t-&gt; time
 
 f-&gt;frequency
 
-\[3\] "timeBodyAccelerometer-mean()-X"
-
-\[4\] "timeBodyAccelerometer-mean()-Y"
-
-\[5\] "timeBodyAccelerometer-mean()-Z"
-
-\[6\] "timeBodyAccelerometer-std()-X"
+\[3\] "timeBodyAccelerometer-mean()-X"<br /> \[4\] "timeBodyAccelerometer-mean()-Y"<br /> \[5\] "timeBodyAccelerometer-mean()-Z"<br /> \[6\] "timeBodyAccelerometer-std()-X" <br />
 \[7\] "timeBodyAccelerometer-std()-Y"
 \[8\] "timeBodyAccelerometer-std()-Z"
 \[9\] "timeGravityAccelerometer-mean()-X"
