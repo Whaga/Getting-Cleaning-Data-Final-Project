@@ -11,9 +11,9 @@ The first 2 variables identify the subject and activity
 
 \[2\] "Activity" - the name of the activity (WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
-Variables 3-88 contain the mean and standard deviations of a variety of measurements averaged over activity and subject
+Variables 3-88 contain the means and standard deviations of a variety of measurements averaged over activity and subject. The measurements were taken from the 30 subjects while performing the 6 different activities. A Samsung Galaxy S smartphone was used to measure the user's speed and acceleration were measured in 3-axial directions.
 
-Please note that several variable names were modified from the original data set by replacing the following prefix abbreviations
+Several variable names were modified from the original data set by replacing the following prefix abbreviations
 
 ACC-&gt;Accelerometer
 
@@ -24,6 +24,8 @@ MAG-&gt;Magnitude
 t-&gt; time
 
 f-&gt;frequency
+
+Measurements for all the following continuous variables ranged between (-1 and 1).
 
 \[3\] "timeBodyAccelerometer-mean()-X"<br /> \[4\] "timeBodyAccelerometer-mean()-Y"<br /> \[5\] "timeBodyAccelerometer-mean()-Z"<br /> \[6\] "timeBodyAccelerometer-std()-X" <br />
 \[7\] "timeBodyAccelerometer-std()-Y" <br />
