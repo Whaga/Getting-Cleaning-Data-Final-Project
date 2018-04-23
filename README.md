@@ -7,6 +7,8 @@ The description of the data from the course assignment page states
 
 "One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone."
 
+30 subjects performed 6 different activities. Using the Samsung Galaxy S smartphone the user's speed and acceleration were measured in 3-axial directions.
+
 A description of the original data files can be found at [The UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 A zip file with all the original data files can be downloaded at [UCI Har Data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
@@ -63,6 +65,6 @@ Downloads and unzips the UCI HAR Dataset if it does not already exist
 
     uses aggregate to get the average of each variable for each activity and each subject
 
-    sorts the data set by activit and subject
+    sorts the data set by activity and subject
 
     The final data set is written as a txt file created with write.table() and named TidyData.txt
