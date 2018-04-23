@@ -53,11 +53,11 @@ Downloads and unzips the UCI HAR Dataset if it does not already exist
 
 4.  Modifies the labels in the data set to descriptive names
 
-    rename the column in the activities table to "Activity" rename the column in the subject table to "Subject"
+    rename the column in the activities table to "Activity"<br /> rename the column in the subject table to "Subject"
 
     rename columns that have hard to understand abbreviations:
 
-    Acc - Accelerometer Gyro - Gyroscope Mag - Magnitude t - time f - frequency
+    Acc - Accelerometer<br /> Gyro - Gyroscope<br /> Mag - Magnitude<br /> t - time<br /> f - frequency<br />
 
 5.  Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
