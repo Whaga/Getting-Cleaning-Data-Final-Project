@@ -66,7 +66,6 @@ alldata<-cbind(subdata,activities,measurements)
 tidydata <- aggregate(formula=.~Subject+Activity, data=alldata, FUN=mean)
 
 #sort the tidy data set by activity, subject
-
 tidydata<-tidydata[order(tidydata$Activity,tidydata$Subject),]
 
 #write the tidy data set
